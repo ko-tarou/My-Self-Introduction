@@ -23,11 +23,25 @@ function Toppage() {
 
       
       <div className='body'>
-        <div className='title'>
-          ようこそ！
+        <div className='main'>
+          <div className='title'>
+            ようこそ！
+          </div>
         </div>
+
+        <div className='activity'>
+          <div className='title'>主な活動</div>
+          <div className='info'>
+            活動1
+          </div>
+          <div className='info'>
+            活動2
+          </div>
+        </div>
+
         <div style={circle}></div>
         <div style={stick}></div>
+        <div style={circle}></div>
       </div>
     </div>
   )
