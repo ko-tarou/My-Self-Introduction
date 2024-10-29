@@ -1,5 +1,6 @@
 :root{
-    --fontsize-normal:50px;
+    --fontsize-normal:30px;
+    --fontsize-big:50px;
 }
 
 .body{
@@ -7,4 +8,21 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #F4F5F7;
+}
+
+header{
+    background-color: #949BAA;
+    padding: 30px;
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
 }
