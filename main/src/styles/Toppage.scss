@@ -2,9 +2,11 @@
 
 .Toppage {
 	.body{
+		gap: 100px;
 		.main{
 			align-items: center;
-			margin: 100px;
+			margin-top: 100px;
+			gap: 100px;
 			.title {
 					font-size: var(--fontsize-big);
 					display: flex;
@@ -22,15 +24,14 @@
 			}
 
 			.my-text{
+				margin-top: 100px;
 				display: flex;
 				justify-content: center;
 				font-size: var(--fontsize-normal);
-				
 			}
 		}
 
 		.activity{
-			margin: 100px;
 
 			.title{
 				font-size: var(--fontsize-normal);

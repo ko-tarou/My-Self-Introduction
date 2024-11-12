@@ -65,6 +65,7 @@ function Toppage() {
         </div>
 
         <div className='timeline'>
+          <div className='title'>これまで</div>
           <TimelineItem text="技育キャンプハッカソンに参加" position="right" />
           <TimelineItem text="スマプロハッカソンに参加" position="left" />
           <TimelineItem text="JPHACK2024に参加" position="right" />
