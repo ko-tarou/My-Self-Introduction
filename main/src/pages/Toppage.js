@@ -53,7 +53,10 @@ function Toppage() {
             <img src={`${process.env.PUBLIC_URL}/monaka.png`} alt="Icon" style={{ width: '200px', height: 'auto' }} />
             <div className='name'>こた</div>
           </div>
-          <div className='my-text'>高岡己太朗です。自己紹介文・・・</div>
+          <div className='my-text'>ハッカソンが大好きな大学一年生の高岡己太朗です</div>
+          <div className='my-text'>
+            一年生の間は色んな分野に挑戦することが目標です。アプリ、Web、セキュリティ、LLMについてプロジェクトで学んでいます。
+          </div>
         </div>
 
         <div className='activity'>
